@@ -38,9 +38,9 @@ GitHub Pages 只能託管**靜態檔案**，無法執行 Python/Flask 後端。
 ```
 awei_photos_app/
 ├── app.py               # Flask 後端（清單/圖片/影片/上傳 API + 安全檢查）
+├── index.html           # 前端單檔（HTML/CSS/JS 全整合，含 SVG 場景動畫；也是 GitHub Pages 首頁）
 ├── requirements.txt     # flask, werkzeug
-└── templates/
-    └── index.html       # 前端單檔（HTML/CSS/JS 全整合，含 SVG 場景動畫）
+└── README.md
 ```
 
 ## 🛡️ 安全設計

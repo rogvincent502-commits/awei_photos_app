@@ -25,7 +25,7 @@ MIME = {
     ".mov": "video/quicktime",
 }
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder=".")  # index.html 放在專案根目錄（兼作 GitHub Pages 首頁）
 app.config["MAX_CONTENT_LENGTH"] = 2 * 1024 * 1024 * 1024  # 2 GB
 
 
