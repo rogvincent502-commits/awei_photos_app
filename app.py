@@ -180,4 +180,4 @@ def api_upload():
 
 if __name__ == "__main__":
     print(f"🎃 阿威相片伺服器已啟動: http://127.0.0.1:5000  (照片目錄: {PHOTOS_DIR})")
-    app.run(host="127.0.0.1", port=5000, debug=False)
+    app.run(host="0.0.0.0", port=5000, debug=False)
